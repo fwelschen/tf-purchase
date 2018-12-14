@@ -26,10 +26,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 intent = new Intent(MainActivity.this, TestWifi.class);
                 break;
             case 1:
-                intent = new Intent(MainActivity.this, TestWifi.class);
+                intent = new Intent(MainActivity.this, TestModel.class);
                 break;
             default:
-                intent = new Intent(MainActivity.this, TestWifi.class);
+                intent = new Intent(MainActivity.this, TestModel.class);
 
         }
         intent.putExtra("position", position);
