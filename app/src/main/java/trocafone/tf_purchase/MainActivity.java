@@ -15,19 +15,24 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-        //* *EDIT* *
-        ListView listview = (ListView) findViewById(R.id.mainList);
+        ListView listview = findViewById(R.id.mainList);
         listview.setOnItemClickListener(this);
     }
 
     public void onItemClick(AdapterView<?> l, View v, int position, long id) {
-        Log.i("HelloListView", "You clicked Item: " + id + " at position:" + position);
-        // Then you start a new Activity via Intent
-        Intent intent = new Intent();
-        intent.setClass(this, ListItemDetail.class);
+        Intent intent;
+        switch (position) {
+            case 0:
+                intent = new Intent(MainActivity.this, TestWifi.class);
+                break;
+            case 1:
+                intent = new Intent(MainActivity.this, TestWifi.class);
+                break;
+            default:
+                intent = new Intent(MainActivity.this, TestWifi.class);
+
+        }
         intent.putExtra("position", position);
-        // Or / And
         intent.putExtra("id", id);
         startActivity(intent);
     }
