@@ -3,7 +3,6 @@ package trocafone.tf_purchase;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
@@ -20,12 +19,15 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     }
 
     public void onItemClick(AdapterView<?> l, View v, int position, long id) {
+
+        String[] arraySections = getResources().getStringArray(R.array.sections);
+
         Intent intent;
-        switch (position) {
-            case 0:
+        switch (arraySections[position]) {
+            case "Test WiFi":
                 intent = new Intent(MainActivity.this, TestWifi.class);
                 break;
-            case 1:
+            case "Test Model":
                 intent = new Intent(MainActivity.this, TestModel.class);
                 break;
             default:
