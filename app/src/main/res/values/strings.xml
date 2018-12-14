@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TF-Purchase</string>
+    <string name="wifi_on">WiFi connected</string>
+    <string name="wifi_off">WiFi not connected</string>
 </resources>
