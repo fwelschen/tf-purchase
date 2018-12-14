@@ -132,7 +132,6 @@ public class TouchView extends View {
                 location[1] = l;
 
                 if ((h <= tileSize || h >= (getRight()-tileSize )) || (l <= tileSize || l >= getBottom()-tileSize) ){
-                    drawPaint.setColor(Color.parseColor("#000DFD"));
                     drawSquare = true;
                     h_global = h;
                     l_global = l;
