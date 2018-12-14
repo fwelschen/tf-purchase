@@ -2,6 +2,9 @@
     <string name="app_name">TF-Purchase</string>
     <string name="wifi_on">WiFi connected</string>
     <string name="wifi_off">WiFi not connected</string>
+    <string name="gps_on">GPS connected</string>
+    <string name="gps_off">GPS not activated</string>
+    <string name="gps_unavailable_location">Unable to get GPS location</string>
     <string name="imei_failure">Unable to get IMEI</string>
     <string name="external_storage_failure">Unable to get External Storage</string>
     <string name="battery_health_cold">Cold</string>
