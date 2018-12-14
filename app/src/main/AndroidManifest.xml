@@ -23,5 +23,7 @@
         <activity android:name=".TestModel"/>
         <activity android:name=".TestPhoneInfo"/>
         <activity android:name=".TestGps"/>
+        <activity android:name=".TestScreen"/>
     </application>
+
 </manifest>
