@@ -30,6 +30,9 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             case "Test Model":
                 intent = new Intent(MainActivity.this, TestModel.class);
                 break;
+            case "Test Phone Info":
+                intent = new Intent(MainActivity.this, TestPhoneInfo.class);
+                break;
             default:
                 intent = new Intent(MainActivity.this, TestModel.class);
 

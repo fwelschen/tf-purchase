@@ -3,6 +3,7 @@
     package="trocafone.tf_purchase">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -19,5 +20,6 @@
         </activity>
         <activity android:name=".TestWifi"/>
         <activity android:name=".TestModel"/>
+        <activity android:name=".TestPhoneInfo"/>
     </application>
 </manifest>
