@@ -27,6 +27,9 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             case "Test WiFi":
                 intent = new Intent(MainActivity.this, TestWifi.class);
                 break;
+            case "Test GPS":
+                intent = new Intent(MainActivity.this, TestGps.class);
+                break;
             case "Test Model":
                 intent = new Intent(MainActivity.this, TestModel.class);
                 break;
