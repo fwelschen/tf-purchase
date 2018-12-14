@@ -1,4 +1,4 @@
-### TF-Purchase
+# TF-Purchase
 
 This repository was created in a trocafone's hackathon in order to make and define first e-purchase app
 
