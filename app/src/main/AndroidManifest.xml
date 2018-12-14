@@ -18,6 +18,8 @@
         </activity>
         <activity android:name=".TestWifi">
         </activity>
+        <activity android:name=".TestScreen">
+        </activity>
     </application>
 
 </manifest>

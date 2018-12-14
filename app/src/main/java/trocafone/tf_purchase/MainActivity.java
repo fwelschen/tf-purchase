@@ -28,6 +28,9 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             case 1:
                 intent = new Intent(MainActivity.this, TestWifi.class);
                 break;
+            case 2:
+                intent = new Intent(MainActivity.this, TestScreen.class);
+                break;
             default:
                 intent = new Intent(MainActivity.this, TestWifi.class);
 
